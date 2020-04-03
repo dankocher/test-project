@@ -14,7 +14,7 @@ class Menu extends React.Component {
                         <MenuItem key={`menu-item-${i}`} title={page}
                                   onClick={() => selectPage(page)}
                                   selected={page === currentPage}
-                                  height={50}
+                                  height={40}
                         />
                     ))
                 }
