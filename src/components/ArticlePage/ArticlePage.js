@@ -4,6 +4,7 @@ import PropTypes from "prop-types";
 import { LoremIpsum } from 'react-lorem-ipsum';
 
 export default class ArticlePage extends Component{
+
     static propTypes = {
         title: PropTypes.string,
         text: PropTypes.string,
