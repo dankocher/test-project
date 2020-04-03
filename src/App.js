@@ -1,7 +1,6 @@
 import React from 'react';
 import './App.scss';
 import Header from "./components/Header";
-import PageCard from "./components/PageCard";
 
 class App extends React.Component {
   render() {
