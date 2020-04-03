@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import './styles.scss';
 import PropTypes from "prop-types";
+import { LoremIpsum } from 'react-lorem-ipsum';
 
 export default class ArticlePage extends Component{
 
@@ -19,7 +20,17 @@ export default class ArticlePage extends Component{
         return (
             <div className={`article-page${className ? ` ${className}` : ''}`} style={mainStyle}>
                 <div className='ap-title' style={titleStyle}>{title}</div>
-                <div className='ap-text' style={textStyle}>{text}</div>
+                <div className='ap-text' style={textStyle}>
+                    {
+                        text ||
+                        <LoremIpsum
+                            p={20}
+                            avgWordsPerSentence={10}
+                            avgSentencesPerParagraph={16}
+                            startWithLoremIpsum={false}
+                        />
+                    }
+                </div>
             </div>
         )
     }

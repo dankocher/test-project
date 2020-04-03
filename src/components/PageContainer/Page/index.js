@@ -1,14 +1,16 @@
 import React from "react";
 import './styles.scss';
 import PropTypes from 'prop-types';
+import ArticlePage from "../../ArticlePage";
 
 class Page extends React.Component {
 
     render() {
         const {currentPage} = this.props;
+
         return (
             <div className={'page'}>
-                {currentPage}
+                <ArticlePage title={currentPage} />
             </div>
         );
     }

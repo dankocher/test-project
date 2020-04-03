@@ -5,14 +5,15 @@ $menuWidth: 300px;
   width: 100%;
   .page-menu {
     width: $menuWidth;
-    position: relative;
+    position: fixed;
     height: 100%;
     display: flex;
   }
   .page {
     display: flex;
     justify-content: center;
-    align-items: center;
+    //align-items: center;
+    margin-left: 300px;
     width: calc(100% - 300px);
   }
 

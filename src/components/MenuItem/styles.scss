@@ -3,7 +3,7 @@
   cursor: pointer;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: flex-start;
   padding: 5px;
   box-sizing: border-box;
 
@@ -14,22 +14,21 @@
     color: #525252;
   }
 
+  &:hover {
+    //background-color: #EBEBEB;
+    background-color: #45ADD3;
+    opacity: 0.5;
+    span {
+      color: white;
+    }
+  }
+
   &.-selected {
     background-color: #45ADD3;
+    opacity: 1;
 
     span {
       color: white;
     }
-
-    &:hover {
-      opacity: 0.9;
-      span {
-        color: #525252;
-      }
-    }
-  }
-
-  &:hover {
-    background-color: #EBEBEB;
   }
 }
