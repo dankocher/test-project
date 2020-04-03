@@ -1,0 +1,20 @@
+.article-page {
+  box-sizing: border-box;
+  .ap-title {
+    box-sizing: border-box;
+    font-size: 42px;
+    padding: 10px;
+    color: #525252;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ap-text {
+    box-sizing: border-box;
+    padding: 5px 50px;
+    color: #525252;
+    text-align: justify;
+    white-space: pre-line;
+    line-height: 22px;
+  }
+}
