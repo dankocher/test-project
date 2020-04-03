@@ -1,3 +1,19 @@
 .page-card {
+  border: 1px solid white;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  word-break: break-all;
+  overflow: hidden;
+  background-color: #EBEBEB;
+  font-size: 22px;
+  color: #525252;
+  cursor: pointer;
+
+  &:hover {
+    opacity: 0.7;
+  }
 
 }

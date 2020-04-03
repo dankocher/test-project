@@ -1,15 +1,18 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import PageCard from './components/PageCard'
+import './App.scss';
+import Header from "./components/Header";
+import PageCard from "./components/PageCard";
 
 class App extends React.Component {
   render() {
     return <div className="App">
+        <div className="app-header">
+            <Header/>
+        </div>
 
-      <div className="content">
-        <PageCard/>
-      </div>
+        <div className="app-content">
+
+        </div>
     </div>
   }
 }
