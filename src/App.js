@@ -37,7 +37,7 @@ class App extends React.Component {
           currentPage === "home" ?
               <Home selectPage={page => this.setPage(page)} pages={pages}/>
               :
-              <PageContainer pages={pages} currentPage={currentPage}/>
+              <PageContainer pages={pages} currentPage={currentPage} selectPage={page => this.setPage(page)}/>
         }
       </div>
     </div>

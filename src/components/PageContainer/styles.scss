@@ -1,0 +1,19 @@
+$menuWidth: 300px;
+
+.page-container {
+  display: inline-flex;
+  width: 100%;
+  .page-menu {
+    width: $menuWidth;
+    position: relative;
+    height: 100%;
+    display: flex;
+  }
+  .page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(100% - 300px);
+  }
+
+}
