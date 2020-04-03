@@ -169,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585921603089</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="added main to package.json">
+      <created>1585923269175</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1585923269175</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -207,13 +214,14 @@
     <MESSAGE value="Added height to menuItem" />
     <MESSAGE value="added react-lorem-ipsum" />
     <MESSAGE value="detect if currentPage is equals to newPage" />
-    <option name="LAST_COMMIT_MESSAGE" value="detect if currentPage is equals to newPage" />
+    <MESSAGE value="added main to package.json" />
+    <option name="LAST_COMMIT_MESSAGE" value="added main to package.json" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3876" y="243" key="CommitChangelistDialog2" timestamp="1585921603047">
+    <state x="3876" y="243" key="CommitChangelistDialog2" timestamp="1585923269133">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
-    <state x="3876" y="243" key="CommitChangelistDialog2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585921603047" />
+    <state x="3876" y="243" key="CommitChangelistDialog2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585923269133" />
     <state x="2660" y="132" width="3240" height="1208" key="DiffContextDialog" timestamp="1585918739138">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
@@ -238,10 +246,10 @@
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
     <state x="3986" y="442" key="MultipleFileMergeDialog/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585923251289" />
-    <state x="3876" y="466" key="Vcs.Push.Dialog.v2" timestamp="1585921604660">
+    <state x="3876" y="466" key="Vcs.Push.Dialog.v2" timestamp="1585923272086">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
-    <state x="3876" y="466" key="Vcs.Push.Dialog.v2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585921604660" />
+    <state x="3876" y="466" key="Vcs.Push.Dialog.v2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585923272086" />
     <state x="4071" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585923245221">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
