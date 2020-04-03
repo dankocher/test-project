@@ -21,6 +21,7 @@ class App extends React.Component {
   }
 
   setPage = (currentPage) => {
+    if (currentPage === this.state.currentPage) return;
     this.setState({currentPage});
     localStorage.setItem(PAGE_STORAGE_NAME, currentPage);
   };
