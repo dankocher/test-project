@@ -1,0 +1,34 @@
+.menu-item {
+  height: 32px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 5px;
+
+  span {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #525252;
+  }
+
+  &.-selected {
+    background-color: #45ADD3;
+
+    span {
+      color: white;
+    }
+
+    &:hover {
+      opacity: 0.9;
+      span {
+        color: #525252;
+      }
+    }
+  }
+
+  &:hover {
+    background-color: #EBEBEB;
+  }
+}
