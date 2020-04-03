@@ -11,7 +11,7 @@ class Menu extends React.Component {
             <div className={'menu'}>
                 {
                     pages.map((page, i) => (
-                        <MenuItem key={`menu-item-${i}`} title={page} onClick={() => selectPage(page)}/>
+                        <MenuItem key={`menu-item-${i}`} title={page} onClick={() => selectPage(page)} selected={page === currentPage}/>
                     ))
                 }
             </div>

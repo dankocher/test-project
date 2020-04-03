@@ -4,7 +4,6 @@
     <list default="true" id="99c62dd8-d904-46d1-897c-c3bed6c1e0b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/PageContainer/Menu/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageContainer/Menu/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/PageContainer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/PageContainer/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +127,14 @@
       <option name="project" value="LOCAL" />
       <updated>1585918795791</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Show MenuItems on Menu">
+      <created>1585919255845</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1585919255845</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -161,13 +167,14 @@
     <MESSAGE value="Save current page to localstorage" />
     <MESSAGE value="Added Menu and Page containers" />
     <MESSAGE value="Save currentPage to localstorage" />
-    <option name="LAST_COMMIT_MESSAGE" value="Save currentPage to localstorage" />
+    <MESSAGE value="Show MenuItems on Menu" />
+    <option name="LAST_COMMIT_MESSAGE" value="Show MenuItems on Menu" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="3876" y="243" key="CommitChangelistDialog2" timestamp="1585918795708">
+    <state x="3876" y="243" key="CommitChangelistDialog2" timestamp="1585919255804">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
-    <state x="3876" y="243" key="CommitChangelistDialog2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585918795708" />
+    <state x="3876" y="243" key="CommitChangelistDialog2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585919255804" />
     <state x="2660" y="132" width="3240" height="1208" key="DiffContextDialog" timestamp="1585918739138">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
@@ -188,10 +195,10 @@
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
     <state width="3417" height="265" key="GridCell.Tab.0.right/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585918286971" />
-    <state x="3876" y="466" key="Vcs.Push.Dialog.v2" timestamp="1585918797087">
+    <state x="3876" y="466" key="Vcs.Push.Dialog.v2" timestamp="1585919261395">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
-    <state x="3876" y="466" key="Vcs.Push.Dialog.v2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585918797087" />
+    <state x="3876" y="466" key="Vcs.Push.Dialog.v2/2560.0.3440.1440/0.32.2560.1408@2560.0.3440.1440" timestamp="1585919261395" />
     <state x="4071" y="649" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585917367444">
       <screen x="2560" y="0" width="3440" height="1440" />
     </state>
