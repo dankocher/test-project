@@ -8,13 +8,16 @@ export default class PageCard extends Component{
     static propTypes = {
         title: PropTypes.string.isRequired,
         style: PropTypes.object,
-        onClick: PropTypes.func
+        onClick: PropTypes.func,
+        className: PropTypes.string
     };
 
     render() {
-        return (
-            <div className='page-card'>
+        const {title, className} = this.props;
 
+        return (
+            <div className={`page-card${className ? ` ${className}` : ''}`}>
+                {title}
             </div>
         )
     }
